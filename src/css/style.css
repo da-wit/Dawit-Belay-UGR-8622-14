@@ -12,11 +12,10 @@ html {
 /*home body*/
 
 .home_body {
-    background-image:url(./image/3235319.jpg) ;
+    background-image:url("../image/3235319.jpg") ;
     display: flex;
     flex-direction: column;
     width: 100%;    
-   
 }
 
 .home_main .home_section {
