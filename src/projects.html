@@ -3,52 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>PROJECTS</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>logo</li>
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="skill.html">SKILL</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>completed projcts</h1>
-            <div>
-                <h3>simple youtube downloader</h3>
-                <p>I have developed a straightforward yet effective YouTube downloader using Python. This project utilizes Python's libraries and scripting capabilities to enable users to download videos from YouTube by providing the video URL. The downloader efficiently fetches the video content and allows users to save it locally in their desired format, demonstrating my ability to create practical applications using Python programming.</p>
-            </div>
-            <div>
-                <h3>Database for a restaurant </h3>
-                <p>I designed and implemented a comprehensive MySQL database system for a restaurant, encompassing tables for menu items, orders, customers, employees, and table management. Utilizing relational database principles, I established connections between entities, allowing for efficient data retrieval and management. The database facilitates seamless order processing, customer management, and employee tracking while optimizing table occupancy and menu item categorization. Through SQL queries and stored procedures, I enabled functionalities such as order placement, status tracking, and insightful reporting, enhancing operational efficiency within the restaurant.</p>
-            </div>
-        </section>
-        <section>
-            <h1>projects in progress</h1>
-            <div>
-                <h3>car rental system</h3>
-                <p>car rental system project aims to develop a user-friendly platform allowing customers to browse, select, and book rental vehicles. It includes features for managing reservations, vehicle inventory, and user accounts, focusing on enhancing user experience and operational efficiency for rental agencies.</p>
-            </div>
-        </section>
+<body class="container-fluid d-flex flex-column bg-danger-subtle vh-100 ">
+  
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <div class="h-25 w-25" id="logo">
+        <img class="w-25 rounded-circle border" src="https://th.bing.com/th/id/OIP.cF-R8IXSTnyXbbemr5Kd3gAAAA?w=360&h=360&rs=1&pid=ImgDetMain" alt="logo" >
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"  aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         
-    </main>
+        <ul class="ms-auto navbar-nav me-2 mb-2 mb-lg-0 text-black h5">
+          <li class="nav-item">
+            <a class="nav-link "href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skill.html">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <footer>
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-telegram"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <a href="">&#128231;</a>
-        <p>Copyright &copy; reserved </p>
-    </footer>
+
+  <main class="border mt-5 row">
+    <div class="col-sm-6" >
+        <div  class="">
+            <h1>
+                completed projcts
+            </h1>
+        </div>
+        <div class="">
+            <div class="">
+                <h3>
+                    simple youtube downloader
+                </h3>
+            </div>
+            <div class=" ">
+                <p>
+                    I have developed a straightforward yet effective YouTube downloader using Python. This project utilizes Python's libraries and scripting capabilities to enable users to download videos from YouTube by providing the video URL. The downloader efficiently fetches the video content and allows users to save it locally in their desired format, demonstrating my ability to create practical applications using Python programming.
+                </p>
+            </div>
+            <div class="">
+                <h3>
+                    Database for a restaurant
+                 </h3>
+            </div>
+            <div class="">
+                <p>
+                    I designed and implemented a comprehensive MySQL database system for a restaurant, encompassing tables for menu items, orders, customers, employees, and table management. Utilizing relational database principles, I established connections between entities, allowing for efficient data retrieval and management. The database facilitates seamless order processing, customer management, and employee tracking while optimizing table occupancy and menu item categorization. Through SQL queries and stored procedures, I enabled functionalities such as order placement, status tracking, and insightful reporting, enhancing operational efficiency within the restaurant.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="">
+            <h1>
+                projects in progress
+            </h1>
+        </div>
+        <div class="">
+            <div class="">
+                <h3>
+                    car rental system
+                </h3>
+            </div>
+            <div class="">
+                <p>
+                    car rental system project aims to develop a user-friendly platform allowing customers to browse, select, and book rental vehicles. It includes features for managing reservations, vehicle inventory, and user accounts, focusing on enhancing user experience and operational efficiency for rental agencies.
+                </p>
+            </div>
+        </div>
+    </div>
+  </main>
     
+    
+  <div class="border mt-auto bg-black">
+    <footer class="d-flex flex-column mx-5">
+      <div class="d-flex justify-content-between mx-5 h4 ">
+          <a class="text-white " href=""><i class="fa-brands fa-facebook"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-instagram"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-telegram"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-twitter"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <p class="text-center text-white">Copyright &copy; reserved </p>
+    </footer>
+  </div>
+       
+
+    
+  <script src="./bootstrap.min.js"></script>  
+  <script src="./js.js"></script>
 </body>
 </html>
+

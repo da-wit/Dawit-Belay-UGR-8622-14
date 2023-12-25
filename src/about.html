@@ -3,73 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>logo</li>
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="skill.html">SKILL</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+<body class="container-fluid d-flex flex-column bg-danger-subtle vh-100 ">
+  
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <div class="h-25 w-25" id="logo">
+            <img class="w-25 rounded-circle border" src="https://th.bing.com/th/id/OIP.cF-R8IXSTnyXbbemr5Kd3gAAAA?w=360&h=360&rs=1&pid=ImgDetMain" alt="logo" >
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"  aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+            <ul class="ms-auto navbar-nav me-2 mb-2 mb-lg-0 text-black h5">
+                <li class="nav-item">
+                  <a class="nav-link "href="home.html">Home</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="skill.html">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              
+              
             </ul>
-        </nav>
-    </header>
-    <main>
-        
-            
-        <section> 
-            <div>
-            <h1>Personal info</h1>
-            <p>My name is Dawit Belay, and I am currently residing in Addis Ababa Ethiopia. I am a passionate third-year student pursuing a degree in Software Engineering. Eager to explore the ever-evolving world of technology, I am driven by a strong curiosity and enthusiasm for coding, problem-solving, and creating innovative solutions. With a keen interest in software development, I am continuously expanding my skills and knowledge in programming languages and software design principles to contribute meaningfully to the tech industry.</p>
-            <audio controls>
-                <source src="./image/hello.mp3" type="audio/ogg">
-                
-            </audio>
-            </div>
+          </div>
+        </div>
+      </nav>
 
-            <div>
-                <h1>Hobbies</h1>
-            
-                <p>Playing Football and Listening to Music
-                Beyond the confines of my academic endeavors, I find solace and passion in the vibrant world of hobbies. Football, with its dynamic energy and team spirit, has been an integral part of my life, fostering not only physical fitness but also camaraderie and a sense of shared purpose. The thrill of the game, the strategies, and the exhilaration of scoring a goal are moments I cherish.
+
+  <main class="border mt-5 row  ">
+    <div class="col-lg-3  col-md-4 col-sm-6  ">
+        <div class="row">
+            <div class="lg-col-12 col-6 order-1">
+                <h1 class="">Personal info</h1>
+            </div>
+            <div class="lg-col-12 col-12 order-3 order-lg-2">
+                <p>My name is Dawit Belay, and I am currently 
+                    residing in Addis Ababa Ethiopia.
+                    I am a passionate third-year student
+                    pursuing a degree in Software Engineering. 
+                    Eager to explore the ever-evolving world of technology, I am driven by 
+                    a strong curiosity and enthusiasm for coding, problem-solving, and creating innovative solutions.
+                    With a keen interest in software development, 
+                    I am continuously expanding my skills and knowledge in programming languages and software design principles to contribute meaningfully to the tech industry.
                 </p>
             </div>
+            <div class="lg-col-12 col-6 order-2 order-lg-3">
+                <audio class=" w-100" controls>
+                    <source  src="../image/hello.mp3" type="audio/ogg">
+                </audio>
+            </div>
+        </div>
+    </div>
 
-            <div><h1>Visited places</h1>
-                <h3>Lalibela</h3>
-                <video controls>
-                    <source src="./image/lalibela.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                <p>Lalibela, an ancient religious site, unveiled its mystical charm through a cluster of rock-hewn churches, intricately carved from solid stone. As I wandered through the underground passages and observed the breathtaking craftsmanship of these churches, I was enveloped in a sense of wonder and reverence for the ingenuity of the artisans who sculpted these architectural marvels centuries ago. The spiritual ambiance and historical significance of Lalibela's churches left an indelible impression on my understanding of Ethiopia's religious heritage.
-                <a href="https://en.wikipedia.org/wiki/Lalibela">More</a>
-                </p>
-                
-                <h2>Gonder</h2>
-                <video controls>
-                    <source src="./image/gonder.mp4" type="video/mp4">
-                  </video>
-                <p> Gonder beckoned with its regal magnificence, notably showcased in the Royal Enclosure. The complex, adorned with towering castles, imposing battlements, and grand palaces, resonated with the splendor of Ethiopia's royal history. Exploring the intricately designed structures within the enclosure, I was transported to an era of opulence and regal sophistication. The architectural intricacies and the stories enshrined within the walls of Gonder's historical sites deepened my appreciation for the country's royal legacy and its significance in Ethiopian history.
-                <a href="https://en.wikipedia.org/wiki/Gondar">More</a>
-                </p></div>
-        </section>
+       
+  
        
 
-    </main>
+    <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="">
+            <h1>Hobbies</h1>
+        </div>
+        <div class="  ">
+            <p >Playing Football and Listening to Music
+                Beyond the confines of my academic endeavors, I find solace and passion in the vibrant world of hobbies. Football, with its dynamic energy and team spirit, has been an integral part of my life, fostering not only physical fitness but also camaraderie and a sense of shared purpose. The thrill of the game, the strategies, and the exhilaration of scoring a goal are moments I cherish.
+            </p>
+        </div>
+    </div>
 
-    <footer>
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-telegram"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <a href="">&#128231;</a>
-        <p>Copyright &copy; reserved </p>
-    </footer>
+    <div class="col-lg-6 col-md-5  col-sm-12 row">
     
+        <div class="">
+            <h1>Visited places</h1>
+        </div>
+
+        <div class="col-sm-6 col-md-12">
+            <div class="  ">
+                <h2>Lalibela</h2>
+            </div>
+            <div class="row my-lg-auto ">
+                <div class=" col-lg-5 col-sm-3 mb-sm-auto col-md-12">
+                    <video class="h-100 w-100" controls autoplay muted>
+                        <source  src="./image/lalibela.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class=" col-lg-7 col-sm-9 small col-md-12">
+                    <p >Lalibela, an ancient religious site, unveiled its mystical charm through a cluster of rock-hewn churches, intricately carved from solid stone. As I wandered through the underground passages and observed the breathtaking craftsmanship of these churches, I was enveloped in a sense of wonder and reverence for the ingenuity of the artisans who sculpted these architectural marvels centuries ago. The spiritual ambiance and historical significance of Lalibela's churches left an indelible impression on my understanding of Ethiopia's religious heritage.
+                        <a href="https://en.wikipedia.org/wiki/Lalibela">More...</a>
+                    </p>
+                </div>
+            </div>
+         </div>
+    
+        <div class="row col-sm-6 col-md-12 ">
+            <div class=" ">
+                <h2>Gonder</h2>
+            </div>
+            <div class="row my-lg-auto">
+                <div class="col-lg-5 col-sm-3 mb-sm-auto col-md-12 ">
+                    <video class="h-100 w-100"  controls autoplay muted>
+                        <source src="./image/gonder.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-lg-7 col-sm-9 small col-md-12">
+                    <p> Gonder beckoned with its regal magnificence, notably showcased in the Royal Enclosure. The complex, adorned with towering castles, imposing battlements, and grand palaces, resonated with the splendor of Ethiopia's royal history. Exploring the intricately designed structures within the enclosure, I was transported to an era of opulence and regal sophistication. The architectural intricacies and the stories enshrined within the walls of Gonder's historical sites deepened my appreciation for the country's royal legacy and its significance in Ethiopian history.
+                        <a  href="https://en.wikipedia.org/wiki/Gondar">More...</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+  </main>
+    
+ 
+<div class="border mt-auto bg-black">
+    <footer class="d-flex flex-column mx-5">
+      <div class="d-flex justify-content-between mx-5 h4 ">
+          <a class="text-white " href=""><i class="fa-brands fa-facebook"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-instagram"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-telegram"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-twitter"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <p class="text-center text-white">Copyright &copy; reserved </p>
+    </footer>
+  </div>
+
+    
+  <script src="./bootstrap.min.js"></script>   
+  <script src="./js.js"></script> 
 </body>
 </html>
+
+
+

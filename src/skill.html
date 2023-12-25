@@ -3,60 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>SKILL</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>logo</li>
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="skill.html">SKILL</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Techinical skills</h1>
-            <div>
-                <h1>programming</h1>
-                <img src="./image/programming1 (1).jpg" alt="cofding">
-                <p>Proficient in both Python and Java, adeptly utilizing their syntax and functionalities to develop diverse software solutions.Skilled in Python and Java programming languages, capable of creating efficient, scalable applications and addressing complex coding challenges.Demonstrating expertise in Python and Java, leveraging their versatility to craft robust, functional programs tailored to specific project needs</p>
+<body class="container-fluid d-flex flex-column bg-danger-subtle vh-100 ">
+  
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <div class="h-25 w-25" id="logo" >
+        <img class="w-25 rounded-circle border" src="https://th.bing.com/th/id/OIP.cF-R8IXSTnyXbbemr5Kd3gAAAA?w=360&h=360&rs=1&pid=ImgDetMain" alt="logo" >
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"  aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        
+        <ul class="ms-auto navbar-nav me-2 mb-2 mb-lg-0 text-black h5">
+          <li class="nav-item">
+            <a class="nav-link "href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skill.html">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main class=" mt-5 row fs-6 ">
+    <div class="col-md-6 col-sm-12">
+        <div class="">
+            <h1 >Techinical skills</h1>
+        </div>
+        <div class="row col-md-12">
+            <div class="col-sm-6 col-md-12 row mb-auto" >
+                <div class=""> 
+                    <h1>Programming</h1>
+                </div>
+                <div class="col-md-12 col-sm-4 "> 
+                    <img class="w-100" src="./image/programming1 (1).jpg" alt="net">
+                </div>
+                <div class="col-md-12 col-sm-8">
+                    <p >
+                        Proficient in both Python and Java, adeptly utilizing their syntax and functionalities to develop diverse software solutions.Skilled in Python and Java programming languages, capable of creating efficient, scalable applications and addressing complex coding challenges.Demonstrating expertise in Python and Java, leveraging their versatility to craft robust, functional programs tailored to specific project needs
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <h1>Networking</h1>
-                <img src="./image/networking.jpg" alt="net">
-                <p>I am currently exploring networking fundamentals at a beginner level, delving into concepts such as network protocols, the OSI model, and basic network configurations. As I progress in my understanding of TCP/IP, subnetting, and IP addressing, I am gaining the foundational knowledge necessary to configure and troubleshoot simple network setups. Through hands-on practice and learning, I aim to develop a solid grasp of networking principles, paving the way to contribute effectively to network design, maintenance, and troubleshooting in the near future</p>
+            <div class="col-sm-6 col-md-12 row" >
+                <div class=""> 
+                    <h1 >Networking</h1>
+                </div>
+                <div class="col-md-12 col-sm-4"> 
+                    <img class="w-100" src="./image/networking.jpg" alt="net">
+                </div>
+                <div class="col-md-12 col-sm-8">
+                     <p >
+                        I am currently exploring networking fundamentals at a beginner level, delving into concepts such as network protocols, the OSI model, and basic network configurations. As I progress in my understanding of TCP/IP, subnetting, and IP addressing, I am gaining the foundational knowledge necessary to configure and troubleshoot simple network setups. Through hands-on practice and learning, I aim to develop a solid grasp of networking principles, paving the way to contribute effectively to network design, maintenance, and troubleshooting in the near future
+                    </p>
+                </div>
             </div>
-        </section>
+        </div>
+        
+    </div>
 
-        <section>
+    <div class="col-md-6 col-sm-12">
+        <div class="">
             <h1>Soft skills</h1>
-            <div>
-                <h1>Communication</h1>
-                <img src="./image/communication.jpg" alt="communication">
-                <p> I possess the capability to effectively convey complex technical concepts in a clear and understandable manner to both technical and non-technical stakeholders. My proficiency in articulating ideas, whether in written reports, documentation, or verbal presentations, enables seamless collaboration within multidisciplinary teams. Additionally, I actively engage in active listening, fostering an environment conducive to constructive feedback and efficient problem-solving. These communication skills allow me to bridge the gap between technical aspects and the broader goals of projects, ensuring clarity and alignment among team members and stakeholders</p>
+        </div>
+        <div class="row col-md-12">
+            
+            <div class="col-sm-6 col-md-12 row mb-sm-auto">
+                <div class="">
+                    <h1>
+                        Communication
+                    </h1>
+                </div>
+                <div class="col-md-12  col-sm-4">
+                    <img class="w-100 "  src="./image/communication.jpg" alt="communication">
+                </div>
+                <div class="col-md-12 col-sm-8 ">
+                    <p >
+                         I possess the capability to effectively convey complex technical concepts in a clear and understandable manner to both technical and non-technical stakeholders. My proficiency in articulating ideas, whether in written reports, documentation, or verbal presentations, enables seamless collaboration within multidisciplinary teams. Additionally, I actively engage in active listening, fostering an environment conducive to constructive feedback and efficient problem-solving. These communication skills allow me to bridge the gap between technical aspects and the broader goals of projects, ensuring clarity and alignment among team members and stakeholders
+                    </p>
+                </div>
             </div>
-            <div>
-                <h1>Time management</h1>
-                <img src="./image/time management.jpg" alt="time">
-                <p>My adeptness in time management is a cornerstone of my work ethic. I excel in prioritizing tasks, setting achievable goals, and efficiently allocating resources to meet deadlines effectively. By employing various organizational tools and techniques, I optimize productivity without compromising quality. I possess the ability to adapt to changing priorities, ensuring smooth project progression even under challenging timelines. Through meticulous planning and a proactive approach, I consistently deliver results within stipulated timeframes. </p>
+
+            <div class="col-sm-6 col-md-12 row mb-auto">
+                <div class="">
+                    <h1>
+                        Time management
+                    </h1>
+                </div>
+                <div class="col-md-12  col-sm-4"> 
+                    <img  class="w-100 " src="./image/time management.jpg" alt="time">
+                </div>
+                <div class="col-md-12 col-sm-8">
+                    <p>
+                        My adeptness in time management is a cornerstone of my work ethic. I excel in prioritizing tasks, setting achievable goals, and efficiently allocating resources to meet deadlines effectively. By employing various organizational tools and techniques, I optimize productivity without compromising quality. I possess the ability to adapt to changing priorities, ensuring smooth project progression even under challenging timelines. Through meticulous planning and a proactive approach, I consistently deliver results within stipulated timeframes. 
+                 </p>
             </div>
-        </section>
-    </main>
-    <footer>
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-telegram"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <a href="">&#128231;</a>
-        <p>Copyright &copy; reserved </p>
-    </footer>
+        </div>
+    </div>
+  </main>
     
+    
+  <div class="border mt-auto bg-black">
+    <footer class="d-flex flex-column mx-5">
+      <div class="d-flex justify-content-between mx-5 h4 ">
+          <a class="text-white " href=""><i class="fa-brands fa-facebook"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-instagram"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-telegram"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-twitter"></i></a>
+          <a class="text-white " href=""><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <p class="text-center text-white">Copyright &copy; reserved </p>
+    </footer>
+  </div>
+       
+
+    
+  <script src="./bootstrap.min.js"></script>   
+  <script src="./js.js"></script>
 </body>
 </html>
+
+
